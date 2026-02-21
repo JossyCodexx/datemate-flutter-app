@@ -1,0 +1,28 @@
+name: dating_app_mvp
+description: "A dating app MVP with swipe cards"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.7 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI Packages
+  cupertino_icons: ^1.0.8
+  card_swiper: ^3.0.1
+  iconsax: ^0.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Assets section - add your images here
+  assets:
+    - assets/images/
